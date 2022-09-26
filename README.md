@@ -39,7 +39,6 @@
       <br>Lambda function to trigger the glue jon</br>
       <br>create an eventbridge rule to associate the completion of the redshift crawler to trigger teh lambda function</br>
  <h3><p id="Analysis">Analysis</p></h3>
-
 <br>[1.Accessing Customer and Invoice data](https://github.com/shruthi2611/DEProjects/blob/main/Write_to_kinesis.py)</br>
 
  <br>Using Api gateway we can access a single customer or invoice information,this will be useful in scnarios where the customer has to access thier purchase information</br>
