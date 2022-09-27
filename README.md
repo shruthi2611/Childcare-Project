@@ -22,27 +22,27 @@
  <br>2.Setup Redshift</br>
  <br>Setup a Redshift cluster and create the tables </br>
  <br>[3.Setup AWS Glue](https://github.com/shruthi2611/DEProjects/blob/main/Write_to_kinesis.py)</br>
- <br>create a crawler for s3 file</br>
- <br>Either create tables in the catalog or use a classifier to get the column headers</br> 
+ <br>create a crawler for s3 files</br>
+ <br>We can Either create tables in the catalog or use a classifier to get the column headers</br> 
  <br>create a second crawler for redshift tables</br>
  <br>A VPC and an endpoint has to be configured for glue to access Redshift</br>
  <br>Create &test the Redshift connection to be used for the crawler and glue jobs</br>
  <br>[4.S3 Event notification & lambda trigger](https://github.com/shruthi2611/Childcare-Project/blob/main/lambda%20glue%20crawler.txt)</br>
  <br>Configure S3 event notification for the files getting posted to the bucket/folder</br>
  <br>Write a lambda function to trigger glue crawler that crawls data from files in s3</br>
- <br>use the s3 notification as the trigger event for lambda function</br>
+ <br>Use the s3 notification as the trigger event for lambda function</br>
  <br>[5.Amazon Eventbridge](https://github.com/shruthi2611/Childcare-Project/blob/main/Event%20pattern.txt)</br>
  <br>Upon completion of the crawler for s3 ,the crawler for redshift has to be triggered</br>
- <br>write a lambda function to trigger Redshift crawler </br>
+ <br>Write a lambda function to trigger Redshift crawler </br>
  <br>[code for Crawler](https://github.com/shruthi2611/Childcare-Project/blob/main/lambda%20Redshift%20crawler.txt)</br>
- <br>create a rule in AWS eventbridge to trigger the lambda function post completion of the crawler for s3 files</br>
+ <br>Create a rule in AWS eventbridge to trigger the lambda function post completion of the crawler for s3 files</br>
  ![alt text](https://github.com/shruthi2611/Childcare-Project/blob/main/eventbridge.PNG "eventbridge")   
  <br>[6.Loading to Redshift](https://github.com/shruthi2611/Childcare-Project/blob/main/lambda%20glue%20job.txt)</br>
       <br>create a glue job to move data from s3 to Redshift using the data catalog tables and edit the spark script for the job to truncate and load the tables for every load</br>
-      <br>Lambda function to trigger the glue jon</br>
-      <br>create an eventbridge rule to associate the completion of the redshift crawler to trigger teh lambda function</br>
+      <br>Lambda function to trigger the glue job</br>
+      <br>Create an eventbridge rule to associate the completion of the redshift crawler to trigger the lambda function</br>
  <br>7.Email Notification </br>
-      <br>Create a SNS topic and subscribe a valid email address </br>
+      <br>Create a SNS topic and subscribe to a valid email address/endpoint </br>
       <br>Create an Eventbridge rule and associate the sns topic to receive notification upon Glue job completion</br>
  <h3><p id="Analysis">Analysis </p></h3>
  
@@ -51,11 +51,11 @@
  
 ![alt text](https://github.com/shruthi2611/Childcare-Project/blob/main/List_of_schools_at_scarborough.PNG "list")
 
-<br>2.Total Capacity for each program(Toddler,Preschool,Infant) in every ward</br>
+<br>2.Total Capacity for each program(Toddler,Preschool,Infant) in every Ward(</br>
  
 ![alt text](https://github.com/shruthi2611/Childcare-Project/blob/main/count_of_programs_per_ward.PNG "Capacity")
 
-<br>3.List of childcare centres in city of Toronto that provide the Before/After school care</br>
+<br>3.List of childcare centres in city of "Toronto" that provide the Before/After school care</br>
  
 ![alt text](https://github.com/shruthi2611/Childcare-Project/blob/main/torontop.PNG "Toronto")
    
