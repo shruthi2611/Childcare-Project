@@ -21,7 +21,7 @@
       <br>4.Before and after school program information -Centres that provide after and before school children care</br>
  <br>2.Setup Redshift</br>
  <br>Setup a Redshift cluster and create the tables </br>
- <br>[3.Setup AWS Glue](https://github.com/shruthi2611/DEProjects/blob/main/Write_to_kinesis.py)</br>
+ <br>3.Setup AWS Glue</br>
  <br>create a crawler for s3 files</br>
  <br>We can Either create tables in the catalog or use a classifier to get the column headers</br> 
  <br>create a second crawler for redshift tables</br>
@@ -51,7 +51,7 @@
  
 ![alt text](https://github.com/shruthi2611/Childcare-Project/blob/main/List_of_schools_at_scarborough.PNG "list")
 
-<br>2.Total Capacity for each program(Toddler,Preschool,Infant) in every Ward(</br>
+<br>2.Total Capacity for each program(Toddler,Preschool,Infant) in every Ward</br>
  
 ![alt text](https://github.com/shruthi2611/Childcare-Project/blob/main/count_of_programs_per_ward.PNG "Capacity")
 
