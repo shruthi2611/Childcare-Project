@@ -1,4 +1,4 @@
-<h2>Web scrapping & Data Analysis of childcare data</h2>
+<h2>Extraction & Data Analysis of childcare data</h2>
 <h3>Introduction</h3>
 <br>Focus of the project is to extract data and build a data pipeline to consolidate the contact information,vacancy details of licensed childcare centres of Toronto.Information is scraped using Python beautifulSoup from The city of Toronto website which provides a list of childcare centres for each ward and a data pipeline is developed in AWS to load the data to Redshift for further analysis.</br> 
  <h3>Contents</h3>
