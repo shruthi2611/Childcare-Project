@@ -42,7 +42,8 @@
       <br>Lambda function to trigger the glue jon</br>
       <br>create an eventbridge rule to associate the completion of the redshift crawler to trigger teh lambda function</br>
  <br>7.Email Notification </br>
-      <br>Create a SNS topic and subscribe a valid email address to receive notification upon Glue job completion</br>
+      <br>Create a SNS topic and subscribe a valid email address </br>
+      <br>Create an Eventbridge rule and associate the sns topic to receive notification upon Glue job completion</br>
  <h3><p id="Analysis">Analysis </p></h3>
  
  <br>[Data from redshift can be analyzed to derive insights](https://github.com/shruthi2611/Childcare-Project/blob/main/data_analysis_query.sql)</br>
